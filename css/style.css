@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+     background-color: yellow;
+}
+.cabecalho h1{
+    color: blue;
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+    font-size: 35px;
+}
+.cabecalho p{
+    color: blue;
+    text-align: center;
+    font-size: 19px;
+}
+.menu h1{
+    display: none;
+}
+.menu li {
+    display: inline-block;
+    padding-top: -30px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    transition: 1s;
+
+}
+.menu a:hover{
+    padding: 10px;
+    color: white;
+    background-color: rgb(115, 115, 119) ;
+}
+
+.sobrepor h1 {
+    opacity: 0;
+    text-decoration: none;
+    position: absolute;
+    color: yellow;
+    font-size: 35px;
+    transition: opacity 1s;
+    box-sizing: border-box;
+
+}
+.sobrepor :hover h1{
+    opacity: 1;
+
+}
+.pai {
+    display: flex;
+}
+.fundo img{
+    max-width: 100%;
+    justify-content: left;
+
+}
+.fundo2 img{
+    max-width: 100%;
+    justify-content: right;
+}
+
+@media screen and (max-width: 600px){
+    .pai{
+        display: grid;
+    }
+    .fundo2 {
+        margin-top: -5px;
+    }
+
+}
+footer{
+    max-width: 100%;
+    background-color: #d3d3d3;
+    padding: 22px;
+    margin-top: -5px;
+}
+
+.f1 h1{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+
+}
+.f1 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+
+}
